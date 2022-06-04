@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World! Esto es una prueba";
+        return "Hello World! Esto es una prueba para probar construcción automatica";
     }
 
     public static void main(String[] args) {
